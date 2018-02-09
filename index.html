@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+  <audio id ="redSo" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type ="audio/mp3"></audio>
+  <audio id ="greenSo" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type ="audio/mp3"></audio>
+  <audio id ="blueSo" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type ="audio/mp3"></audio>
+  <audio id ="yellowSo" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type ="audio/mp3"></audio>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+</head>
+<body>
+  <div class="text-center title"> SIMON GAME</div>
+  <div class ="announce text-center" id ="announce"> 
+    Click start button. Round: 0
+  </div>
+  <div class ="announce1 text-center" id ="announce"> 
+    Click start button
+  </div>
+  <div class ="simonBoard">
+    <table align ="center">
+      <tr>
+        <td class="square" data-square=1 id="blue" ></td>
+        <td class = "square" data-square =2 id="red"></td>
+      </tr>
+      <tr>
+        <td class="square" data-square =3 id ="yellow"></td>
+        <td class="square" data-square=4 id = "green"></td>
+      </tr>
+      
+    </table>
+    
+  </div>
+  <div class ="text-center btnList control">
+    <input type ="button" id="start" value ="START"></input>
+  <input type ="button" id="strict" value ="STRICT MODE"></input>
+<input type ="button" id="reset" value ="RESET"></input>
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js'></script>
+<script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

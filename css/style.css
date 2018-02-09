@@ -1,0 +1,41 @@
+body{
+  background-color: #B65B80;
+}
+.title,.announce,.announce1{
+  margin-top: 3%;
+  font-family: "Orbitron", sans-serif;
+}
+.title{
+  font-size: 3vw;
+}
+.announce,.announce1{
+  font-size: 2vw;
+}
+table, th, td {
+  margin-top: 3%;
+  border: 2px solid black;
+}
+.square{
+  width: 120px;
+  height: 120px;
+}
+#blue{
+  background-color: #496D89;
+}
+#red{
+  background-color: #AA3E39;
+}
+#yellow{
+  background-color: #D4C16A;
+}
+#green{
+  background-color: #116611;
+}
+.control{
+  margin-top: 3%;
+  font-family: "Orbitron",sans-serif;
+  font-size: 1.5vw;
+}   
+.lightUp{
+  opacity: 0.7;
+}
